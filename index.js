@@ -5,7 +5,7 @@ const resolvers = require('./resolvers');
 
 
 //figure out why this line needs to be here--why are we having to specify how we represent text? otherwise, here ApolloServer needs your schema
-const typeDefs = gql(fs.readFileSync('flights.graphql', 'utf8'))
+const typeDefs = gql(fs.readFileSync('hotels.graphql', 'utf8'))
 const hotels = require('./hotels.json');
 const port = process.env.PORT // || 4001
 
