@@ -1,0 +1,20 @@
+type Hotel @key(fields: confirmationCode) {
+    "The internal id associated with the hotel booking option"
+    hoteloptionID: String!
+    "The hotel vendor"
+    hotelVendor: String!
+    "The date you check in"
+    checkInDate: String!
+    "The date you check out"
+    checkOutDate: String!
+    "The number of guests staying"
+    numberOfGuests: Int!
+    "The price of your stay per night"
+    rateInUSD: String!
+
+}
+
+type Query {
+    "Get a list of hotels available"
+    hotels: [Hotel!]!
+} 

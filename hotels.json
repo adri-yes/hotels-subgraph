@@ -1,0 +1,53 @@
+[
+    {   
+        "hotelOptionID": "3001",
+        "hotelVendor": "Marriott",
+        "checkInDate": "06/27/2022",
+        "checkOutDate": "07/20/2022",
+        "numberOfGuests": 2,
+        "rateInUSD": "$110"
+    },
+
+    {   
+        "hotelOptionID": "3002",
+        "hotelVendor": "Hilton",
+        "checkInDate": "01/02/2023",
+        "checkOutDate": "01/26/2023",
+        "numberOfGuests": 2,
+        "rateInUSD": "$125"
+    },
+
+    {   
+        "hotelOptionID": "3003",
+        "hotelVendor": "Hyatt",
+        "checkInDate": "02/23/2022",
+        "checkOutDate": "03/17/2022",
+        "numberOfGuests": 2,
+        "rateInUSD": "$119"
+    },
+
+    {
+        "hotelOptionID": "3004",
+        "hotelVendor": "Four Seasons",
+        "checkInDate": "04/05/2022",
+        "checkOutDate": "04/28/2022",
+        "numberOfGuests": 2,
+        "rateInUSD": "$124"
+        
+    },
+
+    {
+        "hotelOptionID": "3005",
+        "hotelVendor": "Westin",
+        "checkInDate": "08/20/2022",
+        "checkOutDate": "09/15/2022",
+        "numberOfGuests": 2,
+        "rateInUSD": "$112"
+        
+    }
+
+]
+
+
+
+
